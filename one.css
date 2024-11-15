@@ -1,0 +1,159 @@
+@font-face {
+  font-family: 'Better VCR';
+  src: url('/fonts/BetterVCR.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Better VCR', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #a99ac1;
+}
+
+#photo-div {
+    display: flex;
+}
+
+#banner {
+    width: 100vw;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+}
+
+.info_for_n4u {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 25%;
+    margin: auto;
+    background-color: #7d6f94;
+    font-size: 2vw;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.info_for_n4u {
+    padding: 1%;
+}
+
+.info_for_n4u a {
+    color: black;
+}
+
+.button_game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.download-game {
+    width: 75%;
+    height: 4vw;
+    background-color: #7d6f94;
+    font-size: 1.5em;
+    border-radius: 12px;
+    border: none;
+}
+
+.download-game:active {
+    transform: translateY(5px);
+    box-shadow: 0 8px 4px rgba(0, 0, 0, 0.5);
+}
+
+.devloper {
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    background-color: #7d6f94;
+    margin: auto;
+    border-radius: 15px;
+    font-size: 2vw;
+}
+
+.window {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #7d6f94;
+    width: 20%;
+    height: 25%;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.all_devlopes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10%;
+    justify-content: center;
+}
+
+.all_devlopes div {
+    display: flex;
+    justify-content: center;
+}
+
+.dev_color_a {
+    font-size: 2vw;
+    color: black;
+}
+
+.photo_dev {
+    max-width: 100%;
+    width: 15vw;
+    height: auto;
+}
+
+@media (max-width: 767px) {
+    .info_for_n4u {
+        width: 80%;
+        height: 100vw;
+        font-size: 4.5vw;
+    }
+
+    .download-game {
+    width: 75%;
+    height: 15vw;
+    background-color: #7d6f94;
+    font-size: 1.6em;
+    }
+
+    .devloper {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    background-color: #7d6f94;
+    margin: auto;
+    border-radius: 15px;
+    font-size: 4.5vw;
+    }
+
+    .all_devlopes {
+    gap: 5%;
+    }
+
+    .photo_dev {
+    width: 30vw;
+    }
+
+    .dev_color_a {
+    font-size: 3vw;
+    color: black;
+    }
+}
